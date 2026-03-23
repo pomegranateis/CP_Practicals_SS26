@@ -133,10 +133,3 @@ g++ -O2 -std=gnu++17 -o p6 P6.cpp
 | P5b | Modified Dijkstra (time-dependent) | O((N+M) log N) | O(N+M) |
 | P6 | DP over skips (2D) | O(N · K) | O(N · K) |
 
----
-
-If you want, I can now:
-- Insert the exact command lines and captured outputs from each folder's screenshots into this README for quick reference, or
-- Create a `run_all.sh` script that compiles and runs all problems and places captured outputs into their folders.
-
-Which should I do next?

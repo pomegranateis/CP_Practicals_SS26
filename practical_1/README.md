@@ -236,14 +236,3 @@ Thumbs.db
 ```
 
 These files are machine-generated artifacts (binaries and outputs). They should not be committed because they are large, unreproducible across platforms, and clutter the git history.
-
----
-
-## Notes
-
-- All programs compiled with `-std=gnu++17` and `-O2`.
-- Interactive prompts are captured in the terminal screenshots/blocks above.
-
----
-
-Please save this as `README.md` inside the `practical_1` folder. Also create/update the `.gitignore` at the repo root as specified.

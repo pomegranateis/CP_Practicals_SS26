@@ -1,0 +1,28 @@
+# .gitignore for practical_1
+# Ignore compiled binaries, generated outputs, and runtime artifacts for this folder
+
+# Compiled objects and executables
+*.o
+*.exe
+a.out
+
+# Common compiled-output files
+*.out
+
+# Problem executables (common naming used in this folder)
+Problem*
+
+# Per-problem output files and output folders (do not commit generated outputs)
+**/output.txt
+**/outputs/
+**/*_output.txt
+**/*.output.txt
+
+# Editor/OS artifacts
+.DS_Store
+Thumbs.db
+
+# NOTE:
+# These files are machine-generated artifacts (binaries and runtime outputs).
+# They should not be committed because they are large or platform-dependent,
+# clutter the repository history, and are reproducible from source + inputs.

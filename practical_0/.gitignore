@@ -1,0 +1,19 @@
+# Per-folder .gitignore for practical_0
+# Ignore compiled binaries and generated outputs specific to this practical
+
+# Executables and object files
+*.o
+*.exe
+Problem*
+
+# Generated output files
+**/output.txt
+**/outputs/
+**/*_output.txt
+*.out
+
+# OS/editor artifacts
+.DS_Store
+Thumbs.db
+
+# NOTE: These files are generated at build/run time and should not be committed.

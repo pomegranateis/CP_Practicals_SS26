@@ -35,6 +35,9 @@ Mapping to letters:
 
 Total MST weight = 1 + 2 + 3 + 3 + 4 + 5 = 18
 
+**Output:**
+![alt text](image.png)
+
 Implementation
 - See `P1_Boruvka/boruvka.cpp` for the C++ implementation using Union-Find with path compression and union by rank.
 

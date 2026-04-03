@@ -9,6 +9,9 @@ Steps performed in implementation:
 
 Results (from program): the recovered distance matrix matches Floyd–Warshall's final matrix in Part 2.
 
+**Output:**
+![alt text](image.png)
+
 Implementation
 - See `P3_Johnson/johnson.cpp` for the C++ implementation using Bellman-Ford for reweighting and binary heap Dijkstra for per-source runs.
 

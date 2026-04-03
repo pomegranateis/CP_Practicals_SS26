@@ -60,6 +60,9 @@ D^5 (k=4): consider paths via vertex 4
 [  8  11   6   6    0 ]
 ```
 
+**Output:**
+![alt text](image.png)
+
 Final matrix D^5 above. Note: diagonal entries d[i][i] are all >= 0, so no negative cycle detected.
 
 Implementation

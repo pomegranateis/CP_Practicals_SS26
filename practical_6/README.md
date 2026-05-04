@@ -8,11 +8,11 @@
 
 ## Problems
 
-| # | Problem | Algorithm | Key Concept |
-|---|---------|-----------|-------------|
-| 1 | [Basic Trie](./P1_Trie/README.md) | Trie (Prefix Tree) | Insert, Search, Delete on a character-level tree |
-| 2 | [PATRICIA Trie](./P2_PATRICIA/README.md) | PATRICIA Trie | Bit-indexed branching with back-edges; one node per key |
-| 3 | [Manacher's Algorithm](./P3_Manacher/README.md) | Manacher's | O(n) longest palindromic substring via mirror optimisation |
+| #   | Problem                                      | Algorithm          | Key Concept                                                |
+| --- | -------------------------------------------- | ------------------ | ---------------------------------------------------------- |
+| 1   | [Basic Trie](./trie/README.md)               | Trie (Prefix Tree) | Insert, Search, Delete on a character-level tree           |
+| 2   | [PATRICIA Trie](./patricia/README.md)        | PATRICIA Trie      | Bit-indexed branching with back-edges; one node per key    |
+| 3   | [Manacher's Algorithm](./manacher/README.md) | Manacher's         | O(n) longest palindromic substring via mirror optimisation |
 
 ---
 
@@ -20,13 +20,13 @@
 
 ```bash
 # P1 — Trie
-cd P1_Trie && g++ -o p1 trie.cpp && ./p1
+cd trie && g++ -o p1 trie.cpp && ./p1
 
 # P2 — PATRICIA
-cd P2_PATRICIA && g++ -o p2 patricia.cpp && ./p2
+cd patricia && g++ -o p2 patricia.cpp && ./p2
 
 # P3 — Manacher
-cd P3_Manacher && g++ -o p3 manacher.cpp && ./p3
+cd manacher && g++ -o p3 manacher.cpp && ./p3
 ```
 
 ---
